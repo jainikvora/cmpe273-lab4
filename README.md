@@ -8,4 +8,4 @@ cmpe273-lab4
 
 **Server Module**
 * Added delete operation
-* Updated save operation of to change from putIfAbsent to put as putIfAbsent was preventing updates to value of an existing key
+* Updated save operation to change from putIfAbsent to put as putIfAbsent was preventing updates to value of an existing key
