@@ -1,4 +1,11 @@
-cmpe273-lab6
+cmpe273-lab4
 ============
 
-CMPE 273 Lab 6 Baseline
+##Changes Made##
+**Client Module**
+* Created CRDTClient.java to handle "Write" and "Read on Repair" functionality as described in the requirement
+* Added delete operation in DistributedCacheInterface
+
+**Server Module**
+* Added delete operation
+* Updated save operation of to change from putIfAbsent to put as putIfAbsent was preventing updates to value of an existing key
